@@ -1,0 +1,20 @@
+{
+  "name": "music-boat",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --transpileOnly --ignore-watch node_modules --watch src ."
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "ffmpeg-static": "^4.2.2",
+    "typescript": "^3.9.5",
+    "ytdl-core": "^2.1.7"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.44"
+  }
+}
