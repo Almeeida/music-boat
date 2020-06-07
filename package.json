@@ -4,7 +4,7 @@
   "main": "src/index.ts",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev --transpileOnly --ignore-watch node_modules --watch src ."
+    "dev": "ts-node-dev --transpileOnly --ignore-watch node_modules --watch src --no-notify ."
   },
   "dependencies": {
     "@discordjs/opus": "^0.3.2",
